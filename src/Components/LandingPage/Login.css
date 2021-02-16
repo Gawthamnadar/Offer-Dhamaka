@@ -1,0 +1,96 @@
+.LoginPage {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(40, 116, 240);
+  background: radial-gradient(
+    circle,
+    rgba(40, 116, 240, 1) 0%,
+    rgba(160, 178, 208, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LoginForm {
+  width: 400px;
+  min-height: 500px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.loginPasswordInput {
+  display: flex;
+}
+.passwordField {
+  padding-right: 50px;
+}
+.loginPasswordInput .fa-eye-slash,
+.loginPasswordInput .fa-eye {
+  position: absolute;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 270px;
+}
+.RegisterForm {
+  width: 400px;
+  min-height: 600px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.ForgotPasswordForm {
+  width: 400px;
+  min-height: 400px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.fa-arrow-circle-left {
+  cursor: pointer;
+  margin: -25px 0 20px 0;
+  font-size: 35px;
+  color: #007bff;
+}
+.otherFormOptions {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.socialLoginBtns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.kep-login-facebook {
+  padding: 0;
+  background-color: #3b5998;
+  color: white;
+  width: 130px;
+  height: 50px;
+  font-weight: lighter !important;
+  text-transform: lowercase !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.kep-login-facebook > .fa-facebook {
+  margin: 0 0 0 -10px;
+  padding: 0 10px 0 0;
+}
+.googleBtn,
+.googleBtn:hover,
+.googleBtn:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important;
+  width: 130px;
+  height: 50px;
+}
+.googleBtn > div {
+  padding: 5px 10px 5px 10px !important;
+}
+.registerFormLink,
+.loginFormLink {
+  margin-top: 30px;
+}

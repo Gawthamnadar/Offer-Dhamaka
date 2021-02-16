@@ -1,0 +1,23 @@
+.header {
+  width: 100vw;
+  background-color: #2874f0;
+  color: white;
+  font-family: sans-serif;
+}
+.header .navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.header .navbar-brand:hover {
+  color: white;
+}
+.header .navbar-nav .nav-link {
+  margin-left: 25px;
+  font-weight: bold;
+  color: white;
+}
+.fa-shopping-cart {
+  margin-right: 8px;
+}

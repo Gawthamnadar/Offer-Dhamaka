@@ -1,0 +1,8 @@
+.carousel-container {
+  margin: 5px 50px;
+  background-color: black;
+}
+.carousel-container img {
+  width: 100vw;
+  height: 300px;
+}
